@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC
+    "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.mt.mapper">
+
+    <select id="query" resultType="com.mt.model.Userinfo">
+        select * from t_userinfo u left join t_photo p on u.photoalbum = p.id
+        where u.userId = #{id};
+    </select>
+
+    <select id="queryCollection" resultType="com.mt.model.Userinfo">
+        select * from t_collection c left join t_word w on c.wordId = w.id where c.userId = #{id}
+    </select>
+    <!--<update id="updateinfo" parameterType="com.mt.model.Userinfo">
+        UPDATE t_userinfo u LEFT JOIN t_photo p ON u.photoalbum  = p.id SET u.photo = #{photo},u.introduce = #{introduce}, WHERE u.userId = #{id}
+    </update>-->
+
+    <update id="updateinfo" parameterType="com.mt.model.Userinfo">
+        update t_userinfo set photo = #{photo},introduce = #{introduce} where userId = #{id};
+    </update>
+
+    <delete id="deleteCollection" parameterType="com.mt.model.Userinfo">
+        delete from t_collection where wordId = #{wordId} and userId = #{id}
+    </delete>
+</mapper>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6b7d206-82ac-48fc-a32f-5b009a2098af" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="checksumPolicy" value="FAIL" />
+        <option name="failureBehavior" value="FAST" />
+        <option name="mavenHome" value="E:/web/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="E:\web\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lKHwDRxm0xuDMDZFVsZJplZKUU" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="10" />
+    <property name="last_opened_file_path" value="E:/办公文件安装包/Git开发工具/Git-2.8.4-64-bit.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mt.mapper" />
+      <recent name="com.mt.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\webWrok\happytour-city\city-qc\src\main\resources" />
+      <recent name="E:\webWrok\happytour-city\city-qc\src\main\java\com\mt\service" />
+      <recent name="E:\webWrok\happytour-city\city-qc\src\main\java\com\mt\model" />
+      <recent name="E:\webWrok\happytour-city\city-common\src\main\java\com\fh\model" />
+      <recent name="E:\webWrok\happytour-city\city-common\src\main\java\com\fh\interceptor" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.42">
+    <configuration name="CityCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="city-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fh.CityCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CityQcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="city-qc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mt.CityQcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.42" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.42" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/web_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6b7d206-82ac-48fc-a32f-5b009a2098af" name="Default Changelist" comment="" />
+      <created>1607339099170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607339099170</updated>
+      <workItem from="1607339102607" duration="3198000" />
+      <workItem from="1607342321763" duration="2157000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
