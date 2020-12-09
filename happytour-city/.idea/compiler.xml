@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="city-common" />
         <module name="city-qc" />
+        <module name="city-common" />
+        <module name="city-zw" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="city-common" target="1.8" />
       <module name="city-qc" target="1.8" />
+      <module name="city-zw" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

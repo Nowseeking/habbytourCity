@@ -38,6 +38,7 @@
       <list>
         <option value="$PROJECT_DIR$/city-common/pom.xml" />
         <option value="$PROJECT_DIR$/city-qc/pom.xml" />
+        <option value="$PROJECT_DIR$/city-zw/pom.xml" />
       </list>
     </option>
   </component>
