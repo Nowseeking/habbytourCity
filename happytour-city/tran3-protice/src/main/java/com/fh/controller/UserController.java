@@ -42,7 +42,7 @@ public class UserController {
         //15554221009
         SendSmsResponse preCode = SmsUtils.sendSms(user.getPhone());
         if(preCode !=null && preCode.getCode().equals("OK")){
-            RedisUtil.setEx(user.getPhone(),preCode.getMessage()+"",60);
+            RedisUtil.setEx(user.getPhone(),preCode.getMessage()+"",6000);
             return SerResponse.success("获取验证码成功");
         }else{
             return SerResponse.error("获取验证码失败");

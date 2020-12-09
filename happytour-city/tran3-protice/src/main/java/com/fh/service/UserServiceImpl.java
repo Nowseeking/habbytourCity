@@ -38,7 +38,9 @@ public class UserServiceImpl implements  UserService {
         //查询数据库对象
         QueryWrapper qw=new QueryWrapper();
         qw.eq("name",user.getName());
+
         User userDB = userMapper.selectOne(qw);
+
         if(userDB==null){
             return SerResponse.error("数据库用户对象为空");
         }

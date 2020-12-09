@@ -32,7 +32,7 @@ public class loginInterceptor implements HandlerInterceptor {
             throw new AjaxException();
         }
         User userDB = JSON.parseObject(token, User.class);
-        request.getSession().setAttribute("user",userDB);
+        request.setAttribute("user",userDB);
         return true;
     }
 
