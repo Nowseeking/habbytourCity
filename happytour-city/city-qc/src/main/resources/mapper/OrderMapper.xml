@@ -24,4 +24,8 @@
     <delete id="deleteCollection" parameterType="com.mt.model.Userinfo">
         delete from t_collection where wordId = #{wordId} and userId = #{id}
     </delete>
+
+    <insert id="collectWord" parameterType="com.mt.model.Userinfo">
+        update t_userinfo set wordId = #{wordId}+wordId where userId = #{userId}
+    </insert>
 </mapper>

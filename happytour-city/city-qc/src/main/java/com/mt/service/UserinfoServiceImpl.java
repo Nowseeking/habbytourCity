@@ -8,6 +8,7 @@ import com.mt.model.Word;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 @Service
@@ -44,6 +45,13 @@ public class UserinfoServiceImpl implements UserinfoService {
         List<Word> list = userinfoMapper.queryCollection(id);
 
         return ServerRequest.success(list);
+    }
+
+    @Override
+    public ServerRequest collectWord(Userinfo userinfo) {
+
+        userinfoMapper.collectWord(userinfo);
+        return ServerRequest.success();
     }
 
 

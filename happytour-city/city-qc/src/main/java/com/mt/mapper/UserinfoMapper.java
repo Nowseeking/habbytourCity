@@ -17,4 +17,6 @@ public interface UserinfoMapper extends BaseMapper<Userinfo> {
     void deleteCollection(Userinfo userinfo);
 
     List<Word> queryCollection(Integer id);
+
+    void collectWord(Userinfo userinfo);
 }
