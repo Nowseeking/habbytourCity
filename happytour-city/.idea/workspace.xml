@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6b7d206-82ac-48fc-a32f-5b009a2098af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a6b7d206-82ac-48fc-a32f-5b009a2098af" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +17,8 @@
       <MavenGeneralSettings>
         <option name="checksumPolicy" value="FAIL" />
         <option name="failureBehavior" value="FAST" />
-        <option name="mavenHome" value="E:/web/apache-maven-3.5.2" />
-        <option name="userSettingsFile" value="E:\web\apache-maven-3.5.2\conf\settings.xml" />
+        <option name="mavenHome" value="D:/software/Maven 3.6.2/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\software\Maven 3.6.2\apache-maven-3.6.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -57,6 +55,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -112,6 +115,16 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -126,6 +139,7 @@
       <workItem from="1607342321763" duration="2157000" />
       <workItem from="1607483483058" duration="255000" />
       <workItem from="1607597045814" duration="4216000" />
+      <workItem from="1607602569869" duration="370000" />
     </task>
     <task id="LOCAL-00001" summary="秦成的第一次修改 对配置文件进行修改">
       <created>1607600899941</created>
