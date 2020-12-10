@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        #Nacos注册地址
+        server-addr: 169.254.23.50:8848
+        file-extension: yaml
+        #Nacos注册名字--Data Id
+        prefix: happytour-city
+  profiles:
+    #运行环境
+    active: dev
+server:
+  port: 7654
