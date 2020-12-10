@@ -10,4 +10,5 @@ spring:
   profiles:
     #运行环境
     active: dev
-
+server:
+  port: 7654

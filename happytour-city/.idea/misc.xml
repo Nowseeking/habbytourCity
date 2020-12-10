@@ -38,7 +38,11 @@
       <list>
         <option value="$PROJECT_DIR$/city-common/pom.xml" />
         <option value="$PROJECT_DIR$/city-qc/pom.xml" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/city-ybq/pom.xml" />
+=======
         <option value="$PROJECT_DIR$/city-zw/pom.xml" />
+>>>>>>> 406df7b3cfcede1286baae7efa23fd48cb51f0e8
       </list>
     </option>
   </component>
@@ -83,7 +87,7 @@
   <component name="ProjectKey">
     <option name="state" value="https://github.com/JetBrains/idea-templates.git" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" default="true" project-jdk-name="10" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="VssConfiguration">

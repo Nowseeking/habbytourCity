@@ -6,15 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
+        <module name="city-ybq" />
+        <module name="city-qc" />
+        <module name="city-common" />
+=======
         <module name="city-qc" />
         <module name="city-common" />
         <module name="city-zw" />
+>>>>>>> 406df7b3cfcede1286baae7efa23fd48cb51f0e8
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="city-common" target="1.8" />
       <module name="city-qc" target="1.8" />
+<<<<<<< HEAD
+      <module name="city-ybq" target="1.8" />
+=======
       <module name="city-zw" target="1.8" />
+>>>>>>> 406df7b3cfcede1286baae7efa23fd48cb51f0e8
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="city-ybq" options="-parameters" />
+    </option>
   </component>
 </project>

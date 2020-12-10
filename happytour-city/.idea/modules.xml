@@ -4,7 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/city-common/city-common.iml" filepath="$PROJECT_DIR$/city-common/city-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/city-qc/city-qc.iml" filepath="$PROJECT_DIR$/city-qc/city-qc.iml" />
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/city-ybq/city-ybq.iml" filepath="$PROJECT_DIR$/city-ybq/city-ybq.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/city-zw/city-zw.iml" filepath="$PROJECT_DIR$/city-zw/city-zw.iml" />
+>>>>>>> 406df7b3cfcede1286baae7efa23fd48cb51f0e8
       <module fileurl="file://$PROJECT_DIR$/happytour-city.iml" filepath="$PROJECT_DIR$/happytour-city.iml" />
     </modules>
   </component>
