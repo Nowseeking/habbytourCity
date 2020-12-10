@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.186.1:8848
+        file-extension: yaml
+        #需要使用的配置文件
+        shared-dataids: nacosConfig-test.yaml
+        #需要实时刷新的配置文件
+        refreshable-dataids: nacosConfig-test.yaml
+        # 根据自己生成的命名空间ID进行修改
+        #namespace: 04a9fd32-948a-43c5-8bd5-ea76f2e994e1
+  profiles:
+    #运行环境
+    active: test

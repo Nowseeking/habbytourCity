@@ -3,7 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/city-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/city-qc" charset="UTF-8" />
+<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$/city-ybq" charset="UTF-8" />
+=======
+    <file url="file://$PROJECT_DIR$/city-zw" charset="UTF-8" />
+>>>>>>> 406df7b3cfcede1286baae7efa23fd48cb51f0e8
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
